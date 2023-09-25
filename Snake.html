@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Snake</title>
+    <link rel="stylesheet" href="./snake.css" />
+  </head>
+  <body>
+    <div class="snakeControl center">
+      <div id="snakeControls">
+        <button class="btn" id="snakeStart">Start</button>
+        <button class="btn" id="snakeStop">Stop</button>
+      </div>
+      <div class="snakeControl--information">
+        <div id="snakeScore">
+          Score:
+          <span class="score">0</span>
+        </div>
+        <div id="snakeTime">
+          Time:
+          <span class="time">00:00</span>
+        </div>
+      </div>
+      <div id="snakeBoard">
+        <div id="snake"></div>
+        <div><div id="snakeFood"></div></div>
+      </div>
+    </div>
+    <script src="./snake.js"></script>
+  </body>
+</html>

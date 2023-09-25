@@ -1,0 +1,77 @@
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+#snakeBoard {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.snakeBox {
+  background-color: #7575c2;
+  border: none;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  display: none;
+}
+
+#snakeFood {
+  background-color: red;
+  border: none;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  display: none;
+}
+
+#snakeControls {
+  padding-bottom: 20px;
+}
+
+.snakeControl--information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.btn {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  cursor: pointer;
+  font-family: Arial, Helvetica,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.btn:disabled {
+  background-attachment: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}
