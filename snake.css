@@ -27,7 +27,6 @@
   height: 10px;
   width: 10px;
   position: absolute;
-  display: none;
 }
 
 #snakeFood {
@@ -56,8 +55,7 @@
   border: 1px solid #000;
   color: #000;
   cursor: pointer;
-  font-family: Arial, Helvetica,
-    sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -74,4 +72,9 @@
   background-attachment: #ccc;
   color: #000;
   cursor: not-allowed;
+}
+#snake {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
