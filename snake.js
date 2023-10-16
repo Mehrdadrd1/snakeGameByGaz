@@ -68,6 +68,7 @@ const startTime = () => {
     { x: 100, y: 100 },
     { x: 90, y: 100 },
   ];
+  score = 0;
   snake.direction = "right";
   timerInterval = setInterval(() => {
     seconds++;
